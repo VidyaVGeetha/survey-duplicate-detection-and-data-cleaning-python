@@ -1,32 +1,39 @@
 Survey Data Duplicate Detection and Cleaning Using Python
-This project presents a practical data cleaning and deduplication workflow applied to a survey dataset using Python and Pandas. The objective of the analysis is to identify, understand, and systematically remove duplicate records in order to improve data quality and reliability for downstream analytics.
-The project begins with an initial exploration of the dataset to detect both exact and near-duplicate rows. Instead of relying only on full-row duplication, the analysis investigates duplicate patterns across key attributes and examines how duplicate entries are distributed across respondent groups such as employment type and country. Visualizations are used to support interpretation and to provide insight into where duplication occurs most frequently.
-A strategic approach to duplicate removal is then implemented. Rather than treating every minor variation as a unique record, duplicates are evaluated based on a selected subset of core attributes (MainBranch, Employment, and RemoteWork) that best represent a respondent’s profile. This reflects a realistic, business-driven definition of uniqueness, where data cleaning decisions are made deliberately and with justification.
-The workflow includes:
-Detecting duplicate records and reviewing their structure
-Analyzing duplication trends using grouping and visualization
-Defining logical uniqueness criteria using key identifying fields
-Removing duplicates in a controlled, documented manner
-Verifying and validating the cleaned dataset
-This project demonstrates strong competency in data preparation, quality assessment, and analytical reasoning — skills that are critical in real-world data analyst roles. By completing this work, I aimed to strengthen my ability to work with messy datasets, apply structured cleaning methods, and communicate data quality decisions clearly and professionally.
-🛠️ Skills & Tools Used
-Programming & Data Processing
-Python, Pandas, NumPy
-Data Cleaning & Transformation
-Duplicate detection and deduplication strategy
-Subset-based uniqueness logic
-Data wrangling and preprocessing
-Exploratory & Pattern Analysis
-Frequency and profile-based duplicate analysis
-Feature similarity assessment
-Data Visualization
-Matplotlib
-Bar and pie charts for distribution insights
-Professional & Analytical Skills
-Data quality validation
-Structured documentation of cleaning decisions
-Problem-solving in real-world datasets
+Project Overview
+___________________
+This project focuses on detecting and removing duplicate records in a survey dataset.
+The goal is to improve data quality before performing analysis.
+The work simulates a real-world data analyst scenario where datasets often contain repeated or redundant records.
+What the Project Does
+Identifies duplicate and repeated rows in the dataset
+Analyzes where duplicates occur and how they are distributed
+Uses charts to study duplicates by country and employment type
+Applies a strategic approach to remove duplicates
+Keeps meaningful records and removes redundant ones
+Deduplication Strategy
+Instead of deleting only fully identical rows, a subset-based approach is used
+Duplicates are identified using key profile columns:
+MainBranch
+Employment
+RemoteWork
+These fields represent the core identity of a respondent
+This approach reflects realistic, business-driven data cleaning decisions
+Workflow Steps
+Load and explore the dataset
+Detect duplicate records
+Analyze duplicate patterns
+Define uniqueness rules
+Remove duplicates based on selected columns
+Verify results after cleaning
+Skills and Tools Used
+Python
+Pandas and NumPy
+Data cleaning and preprocessing
+Duplicate detection and deduplication logic
+Matplotlib for visualization
+Analytical reasoning and data quality validation
 Outcome
-The final dataset retains only meaningful, unique records while eliminating redundant entries, resulting in a cleaner and more reliable dataset suitable for further analysis or reporting.
- About This Project
-This project was completed as part of my ongoing learning and portfolio development in Data Analytics. It reflects my focus on data quality, analytical thinking, and practical Python-based workflows that align with real-world industry expectations.
+The dataset becomes cleaner and more reliable
+Only unique and meaningful records are retained
+Duplicate and redundant entries are removed
+The dataset is ready for further analysis or reporting
