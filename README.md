@@ -1,39 +1,35 @@
-Survey Data Duplicate Detection and Cleaning Using Python
-Project Overview
-___________________
-This project focuses on detecting and removing duplicate records in a survey dataset.
-The goal is to improve data quality before performing analysis.
-The work simulates a real-world data analyst scenario where datasets often contain repeated or redundant records.
-What the Project Does
-Identifies duplicate and repeated rows in the dataset
+📊 Survey Data Duplicate Detection and Cleaning Using Python
+🧾 Project Overview
+This project focuses on detecting and removing duplicate records in a survey dataset to improve data quality before performing analysis. It simulates a real-world data analyst scenario where datasets often contain repeated, inconsistent, or redundant records.
+✅ What the Project Does
+Detects duplicate and repeated rows in the dataset
 Analyzes where duplicates occur and how they are distributed
-Uses charts to study duplicates by country and employment type
+Visualizes duplicates by Country and Employment Type
 Applies a strategic approach to remove duplicates
-Keeps meaningful records and removes redundant ones
-Deduplication Strategy
-Instead of deleting only fully identical rows, a subset-based approach is used
+Retains meaningful records and removes redundant ones
+🧠 Deduplication Strategy
+Instead of deleting only fully identical rows, the project uses a subset-based uniqueness approach.
 Duplicates are identified using key profile columns:
 MainBranch
 Employment
 RemoteWork
-These fields represent the core identity of a respondent
-This approach reflects realistic, business-driven data cleaning decisions
-Workflow Steps
+These columns represent the core identity of a respondent and reflect realistic, business-driven data-cleaning logic.
+🔧 Workflow Steps
 Load and explore the dataset
 Detect duplicate records
 Analyze duplicate patterns
 Define uniqueness rules
-Remove duplicates based on selected columns
-Verify results after cleaning
-Skills and Tools Used
+Remove duplicates using selected key columns
+Verify dataset after cleaning
+🛠️ Skills / Tools Used
 Python
-Pandas and NumPy
-Data cleaning and preprocessing
-Duplicate detection and deduplication logic
-Matplotlib for visualization
-Analytical reasoning and data quality validation
-Outcome
-The dataset becomes cleaner and more reliable
-Only unique and meaningful records are retained
-Duplicate and redundant entries are removed
-The dataset is ready for further analysis or reporting
+Pandas & NumPy
+Data Cleaning and Pre-processing
+Duplicate Detection & Deduplication Logic
+Matplotlib Data Visualization
+Analytical Reasoning & Data Quality Validation
+🎯 Outcome
+Cleaner and more reliable dataset
+Duplicate and redundant records removed
+Only unique and meaningful entries retained
+Dataset ready for further analysis or reporting
